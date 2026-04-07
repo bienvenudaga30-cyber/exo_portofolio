@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil">
+            <div class="presentatio">
+                <p>Salut,je suis</p>
+                <h1>Bienvenu <em>DAGA</em></h1>
+                <p>Développeur web Front-end</p>
+                <p>
+                    Ce qui m'anime dans le développement, 
+                    c'est cette capacité à partir d'une page 
+                    blanche pour bâtir un outil utile et accessible. 
+                    Rigoureux et attentif aux détails, je mets un point 
+                    d'honneur à créer des interfaces qui ont du sens. 
+                    Mon objectif : contribuer à des projets qui ont un 
+                    impact réel sur l'utilisateur final.
+                </p>
+                <div class="actions">
+                    <a href="#projets" class="btn">Voir mes projets</a>
+                    <a href="#contact" class="btn2">Me contacter</a>
+                </div>
+            </div>
+            <figure class="maphoto">
+                <img src="img/profile.jpg" alt="Ma photo de profil">
+            </figure>
+        </section>
+        
+        <section id="competences">
+
+            <article class="c1">
+                <h3>HTML & CSS</h3>
+                    <p>
+                        Maîtrise de HTML et CSS pour créer des interfaces web modernes et responsives.                    
+                    </p>
+            </article>
+
+            <article class="c2">
+                <h3>JavaScript</h3>
+                    <p>
+                        Capacité à utiliser JavaScript pour ajouter des fonctionnalités interactives et dynamiques aux sites web.
+                    </p>
+            </article>
+
+            <article class="c3">
+                <h3>Git et GitHub</h3>
+                    <p>
+                        Connaissance des principes de base de Git et de GitHub pour la gestion de version et le travail en équipe.
+                    </p>
+            </article>
+            
+            <article class="c4">
+                <h3>Responsive Design</h3>
+                    <p>
+                        Compétence dans la création de sites web qui s'adaptent à différents appareils et tailles d'écran.
+                    </p>
+            </article>
+        </section>
+
+        <section id="projets">
+            <div class="container">
+                <h2>Mes Projets</h2>
+                <article class="p1">
+                    <figure>
+                        <img src="./img/projet1.jpg" alt="Projet 1 (Restafy)">
+                    </figure>
+                    <div class="projet">
+                        <h3>Restafy</h3>
+                            <p>
+                                Restafy est une application de gestion de restaurants 
+                                que j'ai développée pour aider les propriétaires de restaurants 
+                                à gérer efficacement leurs opérations. L'application offre une 
+                                interface conviviale et intuitive, avec des fonctionnalités telles 
+                                que la gestion des réservations, la gestion des menus, la gestion des 
+                                commandes et la gestion des employés.
+                            </p>
+                            <footer>
+                                <ul>
+                                    <li>HTML</li><li>CSS</li><li>JavaScript</li>
+                                </ul>
+                            </footer>
+                    </div>
+                </article>
+
+                <article class="p2">
+                    <figure>
+                        <img src="./img/projet2.webp" alt="Projet 2 (GetShit)">
+                    </figure>
+                    <div class="project">
+                        <h3>GetShit</h3>
+                            <p>
+                                GetShit est une application de gestion de tâches que j'ai développée 
+                                pour aider les utilisateurs à organiser et à suivre leurs tâches quotidiennes. 
+                                L'application offre une interface conviviale et intuitive, avec des fonctionnalités 
+                                telles que la création de listes de tâches, la définition de rappels, la catégorisation 
+                                des tâches et la possibilité de partager des listes avec d'autres utilisateurs.
+                            </p>
+                            <footer>
+                                <ul>
+                                    <li>HTML</li><li>CSS grid</li><li>JavaScript</li>
+                                </ul>
+                            </footer>
+                    </div>
+                </article>
+
+                <article class="p3">
+                    <figure>
+                        <img src="./img/projet3.webp" alt="Projet 3 (WeatherApp)">
+                    </figure>
+                    <div class="project">
+                        <h3>WeatherApp</h3>
+                            <p>
+                                WeatherApp est une application de prévisions météorologiques que j'ai développée 
+                                pour fournir aux utilisateurs des informations précises sur les conditions météorologiques 
+                                actuelles et à venir. L'application utilise des API de données météorologiques pour afficher 
+                                les prévisions, les températures, les conditions météorologiques et d'autres informations pertinentes 
+                                pour aider les utilisateurs à planifier leurs activités en fonction du temps.
+                            </p>
+                            <footer>
+                                <ul>
+                                    <li>HTML</li><li>CSS</li><li>JavaScript</li>
+                                </ul>
+                            </footer>
+
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>contactez-moi</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Votre email" required>
+                </div>
+
+                <div>
+                    <label for="sujet">Sujet</label>
+                    <input type="text" id="sujet" name="sujet" placeholder="Objet de votre message" required>
+                </div>
+
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Écrivez votre message ici..." required></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Envoyer</button>
+                </div>
+            </form>
+        </section>
+
+        <footer class="site-footer">
+            <p>Réalisé par 2026 Bienvenu DAGA. 2026</p>
+        </footer>
+
+    </main>
+</body>
+</html>
